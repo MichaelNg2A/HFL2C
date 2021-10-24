@@ -15,7 +15,7 @@ nouns = ['Early Adopter', 'Low-hanging Fruit',
 
 verb = random.choice(verbs)
 adjective = random.choice(adjectives)
-nouns = random.choice(nouns)
+noun = random.choice(nouns)
 
 phrase = verb + ' ' + adjective + ' ' + noun
 
