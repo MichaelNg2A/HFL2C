@@ -6,7 +6,6 @@ choices =  ['rock', 'paper', 'scissors']
 computer_choice  =  random.choice(choices)
 
 user_choice = input('rock, paper or scissors? ')
-print('You chose', user_choice, 'and the computer chose', computer_choice)
 
 if computer_choice == user_choice:
     winner = 'Tie'
@@ -18,8 +17,6 @@ elif (computer_choice == 'paper' and user_choice == 'rock') \
 
 else:
     winner = 'User'
-
-print(winner)
 
 if winner == 'Tie':
     print('We both chose', computer_choice +', play again.')
