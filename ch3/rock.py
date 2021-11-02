@@ -20,3 +20,8 @@ else:
     winner = 'User'
 
 print(winner)
+
+if winner == 'Tie':
+    print('We both chose', computer_choice +', play again.')
+else:
+    print(winner, 'won, I chose', computer_choice +'.')
